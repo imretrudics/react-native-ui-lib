@@ -15,6 +15,9 @@ const useImperativeInputHandle = (ref: React.Ref<any>, props: Pick<TextInputProp
         // NOTE: This fixes an RN issue - when triggering imperative clear method, it doesn't call onChangeText
         props.onChangeText?.('');
       },
+      setNativeProps: (nativeProps: object) => {
+        inputRef.current?.setNativeProps(nativeProps);
+      },
       validate: () => {
         return context.validateField();
       },
