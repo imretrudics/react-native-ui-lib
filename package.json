@@ -1,7 +1,7 @@
 {
   "name": "@imretrudics/react-native-ui-lib",
-  "version": "6.31.0",
-  "main": "src/index.ts",
+  "version": "6.31.1",
+  "main": "src/index.js",
   "types": "src/index.d.ts",
   "author": "Ethan Sharabi <ethan.shar@gmail.com>",
   "homepage": "https://github.com/wix/react-native-ui-lib",
